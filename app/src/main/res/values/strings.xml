@@ -1,0 +1,107 @@
+<resources>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainActivity Strings -->
+    <string name="app_name">WallpaperTemplate</string>
+    <string name="app_long_name">"WallpaperTemplate - Dashboard Sample"</string>
+    <string name="package_name">"com.example.adarshgupta.wallpapertemplate"</string>
+    <string name="theme_description">Wallpaper is a Material Design based wallpaper app dashboard template. Free and Open-Sourced.</string>
+
+    <!-- Muzei Stuff -->
+    <string name="artsource_name">"WallpaperTemplate"</string>
+    <string name="artsource_desc">"Wallpapers made by Adarsh"</string>
+    <string name="muzei_settings">Muzei Settings</string>
+    <string name="json_file_url">"http://pastebin.com/download.php?i=nK2sdSFt"</string>
+    <!-- Sharing wallpaper from Muzei -->
+    <string name="partone">"My wallpaper for today is "</string>
+    <string name="parttwo">" by "</string>
+    <string name="partthree">" from "</string>
+    <string name="partfour">".\nGet it now at "</string>
+
+    <!-- Developer Account Link -->
+    <string name="play_store_dev_link">https://play.google.com/store/apps/developer?id=ADARSH+GUPTA</string>
+
+    <!-- Icon Pack designer/owner e-mail -->
+    <string name="email_id">adarsh035@email.com</string>
+
+    <!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">"WallpaperTemplate"</string>
+    <string name="email_request_subject">"Wallpaper Requests"</string>
+
+    <!-- This are the strings for the cards in the main screen -->
+    <string name="welcome_title">Welcome to WallpaperTemplate</string>
+
+    <string name="play_card_title">Adarsh Gupta on Google Play</string>
+    <string name="play_card_content">"Check my other apps and download them."</string>
+
+    <string name="app_one_title">Adda-Zooper Widgets</string>
+    <string name="app_one_content">"'Adda' is a set of creative,beautiful and attractive zooper widgets for your device homescreens."</string>
+    <string name="app_one_package">"com.adarshgupta.zwskin.ADDA"</string>
+
+    <string name="app_two_title">Sensacia</string>
+    <string name="app_two_content">"Sensacia consists of beautiful material-inspired zooper widgets."</string>
+    <string name="app_two_package">"com.adarshgupta.zwskin.Sensacia"</string>
+
+    <string name="app_three_title">"Aza-Zooper Widgets"</string>
+    <string name="app_three_content">"AZA consists simple and beautiful widgets designed for your homescreens."</string>
+    <string name="app_three_package">"com.adarshgupta.zwskin.AZA"</string>
+
+    <!-- Your card in About The App section (In desc you can use html markup)-->
+    <string name="iconpack_designer">Adarsh Gupta</string>
+    <string name="iconpack_designer_desc">
+        <![CDATA[
+        I\'m a <b>beginner in android app development</b>. I am an <b>Android Enthusiast</b>. I love trying and learning new things.
+        ]]>
+    </string>
+    <!-- A link to your web page, if you have one -->
+    <string name="dev_link">https://play.google.com/store/apps/developer?id=ADARSH+GUPTA</string>
+    <string name="dev_gplus_link">"https://www.google.com/+AdarshGupta035"</string>
+
+    <!-- Feature picture that appears above the description -->
+    <string name="theme_feature">icons_banner</string>
+
+    <!-- Previews Pictures Names -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+
+    <!-- Strings for Wallpapers and Requests -->
+    <string name="request_save_location">"/WallpaperTemplate/Requests/"</string>
+    <string name="walls_save_location">"/WallpaperTemplate/Wallpapers/"</string>
+    <string name="walls_prefix_name">"WallpaperTemplate_"</string>
+
+
+    <!-- Texts you don't want to get when user downloads that wallpapers -->
+    <!-- Examples: the url of the wall, and prefixes, etc. -->
+    <!-- It replaces the texts in the order as shown. I.e. url is
+    https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/Lines/Circles/Text/text/whatever/WallpaperName.png"
+     it will delete texts in this order:
+     1. https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/
+     2. Lines
+     3. Circles
+     4. Text
+     5. text
+     6. whatever
+     7. (Empty text won't replace anything else).
+     And at the end the only text that will stay is "WallpaperName.png" which will be the final name of downloaded file.
+     -->
+    <string name="replace_one">"https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/"</string>
+    <string name="replace_two">"Lines"</string>
+    <string name="replace_three">"Circles"</string>
+    <string name="replace_four">"Text"</string>
+    <string name="replace_five">"text"</string>
+    <string name="replace_six">"whatever"</string>
+    <string name="replace_seven">""</string>
+
+
+    <string name="author">Author</string>
+    <!--<string name="section_one">Home</string>-->
+    <!--&lt;!&ndash;<string name="section_two">Icons</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="section_three">Apply</string>&ndash;&gt;-->
+    <!--<string name="section_four">Wallpapers</string>-->
+    <!--&lt;!&ndash;<string name="section_five">Icon Request</string>&ndash;&gt;-->
+    <!--<string name="section_six">About The App</string>-->
+</resources>
